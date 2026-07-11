@@ -77,7 +77,7 @@
             
 
 
-            <div class="pst_absolute w_100" style="top: 23%">
+            <div class="pst_absolute w_100" style="top: 22%">
                 <center>
                     <div class="text-center m_0">
                         <div id="countdown" class="color_white fspx_20 font_lo"></div>
@@ -89,32 +89,21 @@
 
 
 
-
-
-
-
-            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 29.5%;  "
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 65.8%;  "
             href="https://maps.app.goo.gl/KUViQtXr84WfjK898" target="_blank"></a>
     
 
          
-            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 25%;   "
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 61.8%;   "
             href="https://maps.app.goo.gl/FWgNAgJuoQ7sVnDZA" target="_blank"></a>
     
 
 
 
-            <a class="pst_absolute w_100 hpx_150 d_block" style="bottom: 10%;  "
+            <a class="pst_absolute w_100 hpx_150 d_block" style="bottom: 9.5%;  "
             href="https://api.whatsapp.com/send?phone=+1(502)693-9422&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"></a>
 
             
-
-
-
-
-
-    
-
 
 
 
@@ -183,7 +172,7 @@ audio.volume = 0.5;
 
 
 
-var targetDate = new Date("Sep 5, 2026 20:00:00").getTime();
+var targetDate = new Date("Aug 1, 2026 20:00:00").getTime();
 var countdownTimer = countdown(
     targetDate,
     function(ts) {
@@ -363,7 +352,7 @@ const swiper = new Swiper('.swiper', {
 
 document.getElementById("sello").addEventListener("click", function() {
 
-    //audio.play();
+    audio.play();
 
     $('body').css('overflow-y', 'auto');
     document.querySelector(".protector").style.display = "none";
@@ -371,9 +360,9 @@ document.getElementById("sello").addEventListener("click", function() {
     $('#sound').find('img').attr('src', 'sound.svg');
     muted = !muted;
 
-    //$(window).scrollTop(0);
+    $(window).scrollTop(0);
 });
-//$(window).scrollTop(0);
+$(window).scrollTop(0);
 
 
 
